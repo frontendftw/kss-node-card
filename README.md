@@ -15,7 +15,9 @@ kss-node/
 ```
 
 ## Instructions for generating the card component within style guide
-Run the following command within the `kss-node` folder:
+* Within **kss-node** folder run `npm install`
+* Run the following command (one single command):
+
 ```bin/kss --source ./components --destination ./dist/styleguide --builder ./builder/twig --css ../../components/card/card.css --verbose```
 
 ## View styleguide and card component
