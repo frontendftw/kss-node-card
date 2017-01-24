@@ -1,0 +1,19 @@
+/*
+Card
+
+Typical card component used throughout the site.
+
+.card--blue - variation of card with blue background.
+
+Markup: card.twig
+
+Style guide:  Components.card
+*/
+
+.card {
+  background: gray;
+}
+
+.card.card--blue {
+  background: blue;
+}
